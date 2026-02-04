@@ -8,7 +8,7 @@ REGION="${REGION:-us-central1}"
 SERVICE="${SERVICE:-hereandnowssh}"
 LOOP_COUNT="${LOOP_COUNT:-2}"   # <- number of loop runs
 
-CPU="${CPU:-6}"
+CPU="${CPU:-4}"
 MEMORY="${MEMORY:-4Gi}"
 TIMEOUT="${TIMEOUT:-3600}"
 MIN_INSTANCES="${MIN_INSTANCES:-1}"
